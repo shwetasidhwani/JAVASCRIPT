@@ -12,7 +12,11 @@ body {
 }
 
 #center {
-    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
     height: 200px;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
 }
